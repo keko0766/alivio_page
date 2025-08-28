@@ -13,6 +13,12 @@ body{
   margin: 0 auto;
 }
 
+@media (max-width:576px){
+  .container{
+    padding-inline: 20px;
+  }
+}
+
 .logo{
   width: 81px;
   height: 24px;
@@ -257,13 +263,19 @@ svg * {
   cursor: pointer;
 }
 
-@media (max-width:992px) {
+@media (max-width:576px) {
   .btn{
     font-size: var(--size-p-m);
     padding: 10px 36px;
   }
-  
 }
+@media (max-width:992px) {
+  .btn{
+    font-size: var(--size-p-m);
+    padding-inline: 36px;
+  }
+}
+
 
 
 

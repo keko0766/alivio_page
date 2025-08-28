@@ -4,9 +4,20 @@
   --color-green: #008b72;
   --color-green-dark: #245852;
   --color-black: #292929;
+  --color-grey-dark: #484848;
 
   --size-p: 20px;
   --size-p-m: 16px;
 
   --transition: all 0.14s ease-in-out;
 }
+
+
+/*
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+*/
