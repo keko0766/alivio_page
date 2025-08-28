@@ -1,0 +1,119 @@
+.product{
+  padding-block: 85px 120px;
+
+  .product__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    @media (max-width: 992px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  .product__media{
+    position: relative;
+    width: 100%;
+    margin-left: 80px;
+
+    @media (max-width: 992px) {
+      margin-bottom: 70px;
+      margin-inline: auto;
+    }
+    
+    .product__image{
+      border-radius: 18px;
+      @media (max-width: 992px) {
+        margin-bottom: 70px;
+        margin-inline: auto;
+      }
+
+    }
+    .product__card{
+      position: absolute;
+      bottom: -70px;
+      left: -60px;
+      @media (max-width: 992px) {
+        bottom: -60px;
+        left: 36px;
+      }
+
+    }
+  }
+
+
+  .product__info{
+    @media (max-width: 992px) {
+      text-align: center;
+    }
+  }
+  .product__title{
+    color: var(--color-green);
+    margin-bottom: 20px;
+  }
+  .product__description{
+    margin-bottom: 40px;
+  }
+
+
+}
+
+
+.card-p {
+  background-color: var(--color-white);
+  border-radius: 4px;
+  box-shadow: 0 0 18px 0 rgba(165, 165, 165, 0.25);
+  padding: 24px 55px;
+  padding-inline: clamp(20px, 3.43vw, 55px);
+
+  line-height: 1.57;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  row-gap: 15px;
+
+  text-align: center;
+  white-space: nowrap;
+
+  flex-shrink: 0;
+
+  .card-p__header {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 7px;
+    border-bottom: 1px solid var(--color-black);
+  }
+
+  .card-p__ava{
+    width: 58px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+  }
+  .card-p__name{
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .card-p__title-content {
+    font-weight: 700;
+    font-size: 16px;
+  }
+  .card-p__list {
+    padding-left: 10px;
+    list-style-type: disc;
+    
+  }
+  .card-p__item {
+    font-size: 11px;
+    font-weight: 400;
+    &:not(:last-child){
+      marginbottom:212px;
+    }
+  }
+
+
+}

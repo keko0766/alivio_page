@@ -13,7 +13,7 @@ body{
   margin: 0 auto;
 }
 
-@media (max-width:576px){
+@media (max-width: 576px) {
   .container{
     padding-inline: 20px;
   }
@@ -28,6 +28,35 @@ body{
 a{
   color: unset;
   text-decoration: none;
+}
+
+p {
+  color: var(--color-grey-dark);
+  font-size: var(--size-p);
+  line-height: 1.5;
+
+  @media (max-width: 436px) {
+    font-size: var(--size-p-m);
+  }
+}
+
+h2{
+  font-size: 50px;
+  font-weight: 700;
+
+  @media (max-width: 992px) {
+    font-size: 45px;
+  }
+  @media (max-width: 436px) {
+    font-size: 35px;
+  }
+
+}
+
+h5{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.5;
 }
 
 /**
@@ -263,13 +292,13 @@ svg * {
   cursor: pointer;
 }
 
-@media (max-width:576px) {
+@media (max-width: 576px) {
   .btn{
     font-size: var(--size-p-m);
     padding: 10px 36px;
   }
 }
-@media (max-width:992px) {
+@media (max-width: 992px) {
   .btn{
     font-size: var(--size-p-m);
     padding-inline: 36px;
