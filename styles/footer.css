@@ -1,0 +1,22 @@
+.footer{
+  background-color: var(--color-green-dark);
+  padding-block: 95px 144px;
+
+  .logo{
+    color: var(--color-white);
+    width: 104px;
+    height: 48px;
+    margin-bottom: 50px;
+  }
+
+  .footer__nav-list{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .footer__nav-link{
+    color: var(--color-white);
+    font-size: 25px;
+    font-weight: 600;
+  }
+}

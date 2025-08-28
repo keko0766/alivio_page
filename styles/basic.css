@@ -23,6 +23,7 @@ body{
   width: 81px;
   height: 24px;
   flex-shrink: 0;
+  color: var(--color-green);
 }
 
 a{
